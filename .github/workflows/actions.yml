@@ -20,7 +20,6 @@ jobs:
           - pypy-3.8
           - pypy-3.9
     name: Test
-    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python ${{ matrix.python-version }}
