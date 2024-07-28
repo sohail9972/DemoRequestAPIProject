@@ -4,12 +4,12 @@ name: actions
   pull_request: null
 jobs:
   run-tests:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     strategy:
       fail-fast: false
       matrix:
         os:
-          - ubuntu-latest
+          - windows-latest
         python-version:
           - '3.7'
           - '3.8'
